@@ -1,0 +1,8191 @@
+
+li {
+  list-style: none;
+}
+
+html > img,
+head > img,
+body > img {
+  z-index: -10;
+  opacity: 0;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.xm-text {
+  display: inline-block;
+  white-space: break-spaces !important;
+}
+
+
+.hide {
+  display: none !important;
+}
+.xm-page-hide {
+  height: 0;
+  position: absolute;
+}
+
+.xm-picture .xm-img {
+  width: 100%;
+}
+.xm-img {
+  color: transparent;
+}
+.xm-img[src=""],
+.xm-img:not([src]) {
+  visibility: hidden;
+}
+.xm-picture {
+  display: inline-flex;
+}
+.section {
+  background-repeat: no-repeat;
+  margin-bottom: -1px;
+  position: relative;
+}
+.xm-page-area > main,
+.xm-page-area_mobile > main {
+  z-index: 1;
+  position: relative;
+}
+.xm-page-area > main {
+  width: 100% !important;
+}
+.mi-bg-color {
+  background-color: #fff;
+}
+
+.th .xm-text,
+.mm .xm-text,
+.kh .xm-text {
+  line-height: 1.5 !important;
+}
+:lang(ko-KR),
+.kr {
+  word-break: keep-all;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  height: 0;
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+  height: auto;
+}
+form {
+  margin: 0;
+}
+
+textarea {
+  vertical-align: top;
+  resize: vertical;
+  overflow: auto;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td {
+  vertical-align: top;
+}
+th,
+td {
+  padding: 0;
+}
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+menu {
+  margin: 0;
+}
+ul,
+ol,
+menu {
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+.eco_name-72 {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+.eco_name-64 {
+  font-size: 1.33333rem;
+  line-height: 1.66667rem;
+}
+.eco_kv-slogan {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+.eco_kv-ksp {
+  font-size: 0.625rem;
+  line-height: 0.91667rem;
+}
+.eco_kv-label {
+  border-radius: 0.08333rem;
+  font-size: 0.75rem;
+  line-height: 1.08333rem;
+}
+.eco_ksp-title {
+  font-size: 0.83333rem;
+  line-height: 1rem;
+}
+.eco_ksp-text {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.eco_ksp-item {
+  padding: 1.04167rem;
+}
+.eco_title {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+.eco_text,
+.eco_note {
+  font-size: 0.75rem;
+  line-height: 0.91667rem;
+}
+.eco_number {
+  font-size: 2.29167rem;
+  line-height: 2.29167rem;
+}
+.eco_note-text {
+  font-size: 0.75rem;
+  line-height: 0.91667rem;
+}
+.eco_specs-title {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+.eco_specs-label,
+.eco_specs-value {
+  font-size: 0.75rem;
+  line-height: 0.91667rem;
+}
+
+main {
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_aee72908da {
+  z-index: 1;
+  box-sizing: border-box;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+}
+.div1.fly-birds-page_aee72908da .div2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 38.3333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div2 .image3 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 38.3333rem;
+}
+.div1.fly-birds-page_aee72908da .div2 .div4 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 18.4375rem;
+  min-height: 7.58333rem;
+  margin-top: -29.1667rem;
+  margin-left: -1.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div2 .div4 .div5 {
+  z-index: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 13.6667rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div2 .div4 .div5 .split_text4988 {
+  color: #000;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.70833rem;
+}
+.div1.fly-birds-page_aee72908da .div2 .div4 .image6 {
+  z-index: 1;
+  width: 13.1042rem;
+  height: 2.72917rem;
+  margin-top: -2.70833rem;
+  margin-left: 1.08333rem;
+}
+.div1.fly-birds-page_aee72908da .div2 .div4 .div7 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 17.3542rem;
+  min-height: 1rem;
+  margin-top: 1.02083rem;
+  margin-left: 1.08333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div2 .div4 .div7 .split_text4987 {
+  color: #000;
+  text-align: center;
+  width: 18.75rem;
+  font-size: 1rem;
+  line-height: 1.14583rem;
+}
+.div1.fly-birds-page_aee72908da .div2 .div4 .div8 {
+  color: #000;
+}
+.div1.fly-birds-page_aee72908da
+  .div2
+  .div4
+  .div8:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div2
+  .div4
+  .div8:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div2
+  .div4
+  .div8:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div2
+  .div4
+  .div8:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div2
+  .div4
+  .div8:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div2
+  .div4
+  .div8:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div9 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 20.4167rem;
+  height: 70rem;
+  margin-top: 1.10417rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 20.4167rem;
+  height: 33.75rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div11 {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 20.4167rem;
+  min-height: 16.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div11 .div12 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 9.95833rem;
+  min-height: 16.625rem;
+  padding-bottom: 3.4375rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div11 .div12 .image13 {
+  z-index: 0;
+  width: 9.95833rem;
+  height: 16.625rem;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div11 .div12 .div14 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 7.58333rem;
+  min-height: 2.72917rem;
+  margin-top: -6.16667rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div9
+  .div10
+  .div11
+  .div12
+  .div14
+  .split_text4989 {
+  color: #000;
+  text-align: center;
+  width: 7.60417rem;
+  font-size: 0.83333rem;
+  line-height: 1.04167rem;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div11 .div15 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 9.95833rem;
+  min-height: 16.625rem;
+  margin-left: 0.5rem;
+  padding-bottom: 4.3125rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div11 .div15 .image16 {
+  z-index: 0;
+  width: 9.95833rem;
+  height: 16.625rem;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div11 .div15 .div17 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 5.875rem;
+  min-height: 1.85417rem;
+  margin-top: -6.16667rem;
+  margin-left: -0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div9
+  .div10
+  .div11
+  .div15
+  .div17
+  .split_text4990 {
+  color: #000;
+  text-align: center;
+  width: 8.60417rem;
+  font-size: 0.83333rem;
+  line-height: 1.04167rem;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div18 {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 20.4167rem;
+  min-height: 16.625rem;
+  margin-top: 0.5rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div18 .div19 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 9.95833rem;
+  min-height: 16.625rem;
+  padding-bottom: 3.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div18 .div19 .image20 {
+  z-index: 0;
+  width: 9.95833rem;
+  height: 16.625rem;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div18 .div19 .div21 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 6.91667rem;
+  min-height: 2.95833rem;
+  margin-top: -6.20833rem;
+  margin-left: 0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div9
+  .div10
+  .div18
+  .div19
+  .div21
+  .split_text4991 {
+  color: #000;
+  text-align: center;
+  width: 8.60417rem;
+  font-size: 0.83333rem;
+  line-height: 1.04167rem;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div18 .div22 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 9.95833rem;
+  min-height: 16.625rem;
+  margin-left: 0.5rem;
+  padding-bottom: 3.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div18 .div22 .image23 {
+  z-index: 0;
+  width: 9.95833rem;
+  height: 16.625rem;
+}
+.div1.fly-birds-page_aee72908da .div9 .div10 .div18 .div22 .div24 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 6.9375rem;
+  min-height: 2.95833rem;
+  margin-top: -6.20833rem;
+  margin-left: -0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div9
+  .div10
+  .div18
+  .div22
+  .div24
+  .split_text4992 {
+  color: #000;
+  text-align: center;
+  width: 8.60417rem;
+  font-size: 0.83333rem;
+  line-height: 1.04167rem;
+}
+.div1.fly-birds-page_aee72908da .div9 .div25 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20.3958rem;
+  min-height: 17.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div9 .div25 .image26 {
+  z-index: 0;
+  width: 20.3958rem;
+  height: 17.625rem;
+}
+.div1.fly-birds-page_aee72908da .div9 .div25 .div27 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 8.3125rem;
+  min-height: 1.89583rem;
+  margin-top: -15.8542rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div9 .div25 .div27 .split_text4993 {
+  color: #000;
+  text-align: center;
+  width: 9.9375rem;
+  font-size: 0.83333rem;
+  line-height: 1.04167rem;
+}
+.div1.fly-birds-page_aee72908da .div9 .div28 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20.3958rem;
+  min-height: 17.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div9 .div28 .image29 {
+  z-index: 0;
+  width: 20.3958rem;
+  height: 17.625rem;
+}
+.div1.fly-birds-page_aee72908da .div9 .div28 .div30 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 7.64583rem;
+  min-height: 1.89583rem;
+  margin-top: -16.1042rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div9 .div28 .div30 .split_text4994 {
+  color: #000;
+  text-align: center;
+  width: 10.2292rem;
+  font-size: 0.83333rem;
+  line-height: 1.04167rem;
+}
+.div1.fly-birds-page_aee72908da .div31 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 15.125rem;
+  margin-top: 1.375rem;
+  padding-bottom: 5.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div31 .image32 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 15.125rem;
+}
+.div1.fly-birds-page_aee72908da .div31 .div33 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15.875rem;
+  min-height: 4.66667rem;
+  margin-top: -9.91667rem;
+  margin-left: 0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div31 .div33 .div34 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15.875rem;
+  min-height: auto;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div31 .div33 .div34 .split_text4995 {
+  color: #000;
+  text-align: center;
+  width: 18.5417rem;
+  font-size: 1.5rem;
+  line-height: 1.70833rem;
+}
+.div1.fly-birds-page_aee72908da .div31 .div33 .div35 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 14rem;
+  min-height: auto;
+  margin-top: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div31 .div33 .div35 .split_text4996 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div36 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 62.3542rem;
+  padding-bottom: 25.7292rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div36 .image37 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 62.3542rem;
+}
+.div1.fly-birds-page_aee72908da .div36 .div38 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 18.2292rem;
+  min-height: 12.2917rem;
+  margin-top: -56.1042rem;
+  margin-left: 0.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div36 .div38 .div39 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 18.2083rem;
+  min-height: auto;
+  margin-left: 0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div36 .div38 .div39 .split_text4997 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div36 .div38 .div40 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 14.8958rem;
+  min-height: auto;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div36 .div38 .div40 .split_text4998 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div36 .div38 .div41 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 18.1667rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  margin-left: -0.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div36 .div38 .div41 .split_text4999 {
+  color: #000;
+  text-align: center;
+  width: 19.6875rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 {
+  z-index: 2;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 13.25rem;
+  margin-top: 5.85417rem;
+  margin-left: 0.41667rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div43 {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 13.0625rem;
+  min-height: 4.125rem;
+  margin-left: 0.1875rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div43 .div44 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 4.14583rem;
+  min-height: 4.10417rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div43 .div44 .image45 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.02083rem;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div43 .div44 .div46 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4.14583rem;
+  min-height: 0.60417rem;
+  margin-top: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div36
+  .div42
+  .div43
+  .div44
+  .div46
+  .split_text5000 {
+  color: #000;
+  text-align: center;
+  width: 6.54167rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div43 .div47 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 5.35417rem;
+  min-height: 4.125rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div43 .div47 .image48 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.02083rem;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div43 .div47 .div49 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 5.35417rem;
+  min-height: 0.60417rem;
+  margin-top: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div36
+  .div42
+  .div43
+  .div47
+  .div49
+  .split_text5001 {
+  color: #000;
+  text-align: center;
+  width: 6.54167rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div50 {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 12.6667rem;
+  min-height: 4.29167rem;
+  margin-top: 4.16667rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div50 .div51 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 4.52083rem;
+  min-height: 4.29167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div50 .div51 .image52 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.02083rem;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div50 .div51 .div53 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4.52083rem;
+  min-height: 0.75rem;
+  margin-top: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div36
+  .div42
+  .div50
+  .div51
+  .div53
+  .split_text5002 {
+  color: #000;
+  text-align: center;
+  width: 6.54167rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div50 .div54 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 4.25rem;
+  min-height: 4.14583rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div50 .div54 .image55 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.04167rem;
+}
+.div1.fly-birds-page_aee72908da .div36 .div42 .div50 .div54 .div56 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4.25rem;
+  min-height: 0.58333rem;
+  margin-top: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div36
+  .div42
+  .div50
+  .div54
+  .div56
+  .split_text5003 {
+  color: #000;
+  text-align: center;
+  width: 6.54167rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.div1.fly-birds-page_aee72908da .div57 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 74.3333rem;
+  padding-bottom: 1.45833rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div57 .image58 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 74.3333rem;
+}
+.div1.fly-birds-page_aee72908da .div57 .div59 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.5rem;
+  min-height: 11.8125rem;
+  margin-top: -68.0833rem;
+  margin-left: -0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div57 .div59 .div60 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15.3542rem;
+  min-height: auto;
+  margin-left: 0.10417rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div57 .div59 .div60 .split_text5004 {
+  color: #000;
+  text-align: center;
+  width: 16.25rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div57 .div59 .div61 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.1875rem;
+  min-height: auto;
+  margin-left: 0.10417rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div57 .div59 .div61 .split_text5005 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div57 .div59 .div62 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.5rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div57 .div59 .div62 .split_text5006 {
+  color: #000;
+  text-align: center;
+  width: 20.5rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 {
+  z-index: 2;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 20.4167rem;
+  min-height: 34.3333rem;
+  margin-top: 20.4792rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div64 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20.4167rem;
+  min-height: 16.1458rem;
+  padding-bottom: 3.52083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div64 .image65 {
+  z-index: 0;
+  width: 20.4167rem;
+  height: 16.1458rem;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div64 .div66 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 14.625rem;
+  min-height: 3.5625rem;
+  margin-top: -7.08333rem;
+  margin-left: 0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div64 .div66 .div67 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 14.625rem;
+  min-height: auto;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div57
+  .div63
+  .div64
+  .div66
+  .div67
+  .split_text5007 {
+  color: #000;
+  text-align: center;
+  width: 15.6667rem;
+  font-size: 1.04167rem;
+  line-height: 1.25rem;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div64 .div66 .div68 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 11.0833rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div57
+  .div63
+  .div64
+  .div66
+  .div68
+  .split_text5008 {
+  color: #000;
+  text-align: center;
+  width: 12.4375rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div69 {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 20.4167rem;
+  min-height: 17.8125rem;
+  margin-top: 0.375rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div69 .div70 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10rem;
+  min-height: 17.8125rem;
+  padding-bottom: 4.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div69 .div70 .image71 {
+  z-index: 0;
+  width: 10rem;
+  height: 17.8125rem;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div69 .div70 .div72 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 7.54167rem;
+  min-height: 5.72917rem;
+  margin-top: -10.3542rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div69 .div70 .div72 .div73 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4.85417rem;
+  min-height: 2.25rem;
+  margin-left: -0.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div57
+  .div63
+  .div69
+  .div70
+  .div72
+  .div73
+  .split_text5009 {
+  color: #000;
+  text-align: center;
+  width: 7.79167rem;
+  font-size: 1.04167rem;
+  line-height: 1.25rem;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div69 .div70 .div72 .div74 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 7.54167rem;
+  min-height: 2.66667rem;
+  margin-top: 0.8125rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div57
+  .div63
+  .div69
+  .div70
+  .div72
+  .div74
+  .split_text5010 {
+  color: #000;
+  text-align: center;
+  width: 8.02083rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div69 .div75 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10rem;
+  min-height: 17.8125rem;
+  margin-left: 0.41667rem;
+  padding-bottom: 3.83333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div69 .div75 .image76 {
+  z-index: 0;
+  width: 10rem;
+  height: 17.8125rem;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div69 .div75 .div77 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 7.9375rem;
+  min-height: 6.60417rem;
+  margin-top: -10.4375rem;
+  margin-left: -0.14583rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div69 .div75 .div77 .div78 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 5.77083rem;
+  min-height: 2.125rem;
+  margin-left: 0.125rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div57
+  .div63
+  .div69
+  .div75
+  .div77
+  .div78
+  .split_text5011 {
+  color: #000;
+  text-align: center;
+  width: 7.91667rem;
+  font-size: 1.04167rem;
+  line-height: 1.25rem;
+}
+.div1.fly-birds-page_aee72908da .div57 .div63 .div69 .div75 .div77 .div79 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 7.9375rem;
+  min-height: 3.4375rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div57
+  .div63
+  .div69
+  .div75
+  .div77
+  .div79
+  .split_text5012 {
+  color: #000;
+  text-align: center;
+  width: 8.27083rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div80 {
+  z-index: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 42.2292rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div80 .image81 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 42.2292rem;
+}
+.div1.fly-birds-page_aee72908da .div80 .div82 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.25rem;
+  min-height: 7.875rem;
+  margin-top: -35.9792rem;
+  margin-left: 0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div80 .div82 .div83 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 17.75rem;
+  min-height: 1.35417rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div80 .div82 .div83 .split_text5013 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div80 .div82 .div84 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 18.0625rem;
+  min-height: 1.375rem;
+  margin-top: 0.125rem;
+  margin-left: -0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div80 .div82 .div84 .split_text5014 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div80 .div82 .div85 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 19.25rem;
+  min-height: 3.60417rem;
+  margin-top: 1.41667rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div80 .div82 .div85 .split_text5015 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div86 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 22.5rem;
+  height: 70.7083rem;
+  margin-top: -0.27083rem;
+  padding-bottom: 4.6875rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .image87 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 70.7083rem;
+}
+.div1.fly-birds-page_aee72908da .div86 .div88 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.3958rem;
+  min-height: 11rem;
+  margin-top: -64.2083rem;
+  margin-right: 1.5625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div88 .div89 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15.625rem;
+  min-height: auto;
+  margin-left: 0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div88 .div89 .split_text5016 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div86 .div88 .div90 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.2917rem;
+  min-height: auto;
+  margin-left: 0.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div88 .div90 .split_text5017 {
+  color: #000;
+  letter-spacing: 0.01042rem;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div86 .div88 .div91 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.3958rem;
+  min-height: 3.60417rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div88 .div91 .split_text5018 {
+  color: #000;
+  text-align: center;
+  width: 19.7083rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div86 .div92 {
+  z-index: 2;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 8.5rem;
+  min-height: 3.77083rem;
+  margin-top: 21.6667rem;
+  margin-right: 2.83333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div92 .div93 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 2.14583rem;
+  min-height: 0.58333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div92 .div93 .split_text5021 {
+  color: #000;
+  width: 2.70833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div93
+  .split_text5021:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div93
+  .split_text5021:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div93
+  .split_text5021:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div93
+  .split_text5021:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div93
+  .split_text5021:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div93
+  .split_text5021:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div86 .div92 .div94 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 2.3125rem;
+  min-height: 0.60417rem;
+  margin-right: 2.9375rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div92 .div94 .split_text5020 {
+  color: #000;
+  width: 2.70833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div94
+  .split_text5020:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div94
+  .split_text5020:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div94
+  .split_text5020:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div94
+  .split_text5020:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div94
+  .split_text5020:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div94
+  .split_text5020:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div86 .div92 .div95 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 2.33333rem;
+  min-height: 0.58333rem;
+  margin-right: 6.16667rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div92 .div95 .split_text5019 {
+  color: #000;
+  width: 2.70833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div95
+  .split_text5019:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div95
+  .split_text5019:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div95
+  .split_text5019:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div95
+  .split_text5019:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div95
+  .split_text5019:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div92
+  .div95
+  .split_text5019:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div86 .div96 {
+  z-index: 3;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20.4167rem;
+  min-height: 17.2708rem;
+  margin-top: 5.8125rem;
+  margin-right: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div96 .div97 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20.4167rem;
+  min-height: 7.27083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div96 .div97 .image98 {
+  z-index: 0;
+  width: 20.4167rem;
+  height: 7.27083rem;
+}
+.div1.fly-birds-page_aee72908da .div86 .div96 .div97 .div99 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 4.60417rem;
+  min-height: 2.02083rem;
+  margin-top: -0.41667rem;
+  margin-left: -18.3542rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div96 .div97 .div99 .div100 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 4.60417rem;
+  min-height: 0.97917rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div100
+  .split_text5022 {
+  color: #4f8bf1;
+  width: 4.9375rem;
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div100
+  .split_text5022:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div100
+  .split_text5022:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div100
+  .split_text5022:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div100
+  .split_text5022:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div100
+  .split_text5022:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div100
+  .split_text5022:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div86 .div96 .div97 .div99 .div101 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 2.45833rem;
+  min-height: 0.58333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div101
+  .split_text5023 {
+  color: #323232;
+  width: 2.72917rem;
+  font-size: 0.75rem;
+  line-height: 1.08333rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div101
+  .split_text5023:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div101
+  .split_text5023:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div101
+  .split_text5023:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div101
+  .split_text5023:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div101
+  .split_text5023:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div97
+  .div99
+  .div101
+  .split_text5023:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div86 .div96 .div102 {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20.4167rem;
+  min-height: 7.0625rem;
+  margin-top: 0.45833rem;
+  padding-right: 1.95833rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div96 .div102 .image103 {
+  z-index: 0;
+  width: 20.4167rem;
+  height: 7.0625rem;
+}
+.div1.fly-birds-page_aee72908da .div86 .div96 .div102 .div104 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 4.5625rem;
+  min-height: 2.04167rem;
+  margin-top: -0.27083rem;
+  margin-left: -6.52083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div96 .div102 .div104 .div105 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 4.52083rem;
+  min-height: 0.97917rem;
+  margin-left: 0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div105
+  .split_text5024 {
+  color: #4f8bf1;
+  width: 4.72917rem;
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div105
+  .split_text5024:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div105
+  .split_text5024:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div105
+  .split_text5024:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div105
+  .split_text5024:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div105
+  .split_text5024:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div105
+  .split_text5024:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div86 .div96 .div102 .div104 .div106 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 3.60417rem;
+  min-height: 0.58333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div106
+  .split_text5025 {
+  color: #323232;
+  width: 3.75rem;
+  font-size: 0.75rem;
+  line-height: 1.08333rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div106
+  .split_text5025:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div106
+  .split_text5025:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div106
+  .split_text5025:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div106
+  .split_text5025:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div106
+  .split_text5025:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div86
+  .div96
+  .div102
+  .div104
+  .div106
+  .split_text5025:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div86 .div96 .div107 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 18.4375rem;
+  min-height: auto;
+  margin-top: 0.77083rem;
+  margin-left: -0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div86 .div96 .div107 .split_text5026 {
+  color: #000;
+  text-align: center;
+  width: 19.7083rem;
+  font-size: 0.72917rem;
+  line-height: 0.91667rem;
+}
+.div1.fly-birds-page_aee72908da .div108 {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 15.125rem;
+  padding-right: 2.52083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div108 .image109 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 15.125rem;
+}
+.div1.fly-birds-page_aee72908da .div108 .div110 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 17.4167rem;
+  min-height: 4.66667rem;
+  margin-left: -19.9375rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div108 .div110 .div111 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 17.4167rem;
+  min-height: auto;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div108 .div110 .div111 .split_text5027 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.5rem;
+  line-height: 1.70833rem;
+}
+.div1.fly-birds-page_aee72908da .div108 .div110 .div112 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10.7708rem;
+  min-height: auto;
+  margin-top: 0.70833rem;
+  margin-left: -0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div108 .div110 .div112 .split_text5028 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div113 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 49.75rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div113 .image114 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 49.75rem;
+}
+.div1.fly-birds-page_aee72908da .div113 .div115 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 18.2083rem;
+  min-height: 9.375rem;
+  margin-top: -43.5208rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div113 .div115 .div116 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 11.5833rem;
+  min-height: auto;
+  margin-left: -0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div113 .div115 .div116 .split_text5029 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div113 .div115 .div117 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 16.1667rem;
+  min-height: auto;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div113 .div115 .div117 .split_text5030 {
+  color: #000;
+  letter-spacing: 0.01042rem;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div113 .div115 .div118 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 18.2083rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div113 .div115 .div118 .split_text5031 {
+  color: #000;
+  text-align: center;
+  width: 18.75rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div119 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 61.4167rem;
+  padding-bottom: 25.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div119 .image120 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 61.4167rem;
+}
+.div1.fly-birds-page_aee72908da .div119 .div121 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.3333rem;
+  min-height: 9.1875rem;
+  margin-top: -55.1875rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div119 .div121 .div122 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 18.1042rem;
+  min-height: auto;
+  margin-left: 0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div119 .div121 .div122 .split_text5032 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div119 .div121 .div123 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.2083rem;
+  min-height: auto;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div119 .div121 .div123 .split_text5033 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div119 .div121 .div124 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.3333rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div119 .div121 .div124 .split_text5034 {
+  color: #323232;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 {
+  z-index: 2;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 15.5833rem;
+  min-height: 15.3125rem;
+  margin-top: 5.625rem;
+  margin-left: -0.79167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div126 {
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 15.2292rem;
+  min-height: 5.22917rem;
+  margin-right: 0.35417rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div126 .div127 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 7.1875rem;
+  min-height: 5.22917rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div126 .div127 .image128 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: -0.0625rem;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div126 .div127 .div129 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 7.1875rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div119
+  .div125
+  .div126
+  .div127
+  .div129
+  .split_text5035 {
+  color: #000;
+  text-align: center;
+  width: 7.70833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div126 .div130 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 4.77083rem;
+  min-height: 5.0625rem;
+  margin-left: 4.16667rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div126 .div130 .image131 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.02083rem;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div126 .div130 .div132 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 4.77083rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div119
+  .div125
+  .div126
+  .div130
+  .div132
+  .split_text5036 {
+  color: #000;
+  text-align: center;
+  width: 5.97917rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div133 {
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 14.9792rem;
+  min-height: 6.25rem;
+  margin-top: 4.16667rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div133 .div134 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 5.9375rem;
+  min-height: 6.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div133 .div134 .image135 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: -0.02083rem;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div133 .div134 .div136 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 5.9375rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div119
+  .div125
+  .div133
+  .div134
+  .div136
+  .split_text5037 {
+  color: #000;
+  text-align: center;
+  width: 6.625rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div133 .div137 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5.47917rem;
+  min-height: 5.29167rem;
+  margin-left: 4.16667rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div133 .div137 .image138 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.02083rem;
+}
+.div1.fly-birds-page_aee72908da .div119 .div125 .div133 .div137 .div139 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 5.47917rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div119
+  .div125
+  .div133
+  .div137
+  .div139
+  .split_text5038 {
+  color: #000;
+  text-align: center;
+  width: 5.97917rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div140 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 68.7708rem;
+  padding-bottom: 3.85417rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .image141 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 68.7708rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div142 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.2917rem;
+  min-height: 11.0833rem;
+  margin-top: -62.5833rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div142 .div143 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 13.6875rem;
+  min-height: auto;
+  margin-left: 0.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div142 .div143 .split_text5039 {
+  color: #000;
+  text-align: center;
+  width: 14.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div142 .div144 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 14rem;
+  min-height: auto;
+  margin-left: 0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div142 .div144 .split_text5040 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div142 .div145 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.2917rem;
+  min-height: 3.60417rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div142 .div145 .split_text5041 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 {
+  z-index: 2;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 16rem;
+  min-height: 18.3958rem;
+  margin-top: 3.77083rem;
+  margin-left: 0.08333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div147 {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 15.6458rem;
+  min-height: 6.70833rem;
+  margin-right: 0.35417rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div147 .div148 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 5.47917rem;
+  min-height: 6.70833rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div147 .div148 .image149 {
+  width: 4.1875rem;
+  height: 3.9375rem;
+  margin-left: -0.33333rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div147 .div148 .div150 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 5.47917rem;
+  min-height: 1.70833rem;
+  margin-top: 1.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div146
+  .div147
+  .div148
+  .div150
+  .split_text5042 {
+  color: #000;
+  text-align: center;
+  width: 5.97917rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div147 .div151 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 4.9375rem;
+  min-height: 5.72917rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div147 .div151 .image152 {
+  width: 4.1875rem;
+  height: 3.9375rem;
+  margin-left: 0.1875rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div147 .div151 .div153 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4.9375rem;
+  min-height: 0.72917rem;
+  margin-top: 1.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div146
+  .div147
+  .div151
+  .div153
+  .split_text5043 {
+  color: #000;
+  text-align: center;
+  width: 5.97917rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div154 {
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 15.5625rem;
+  min-height: 6.6875rem;
+  margin-top: 4.79167rem;
+  margin-left: 0.41667rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div154 .div155 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 4.58333rem;
+  min-height: 5.85417rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div154 .div155 .image156 {
+  width: 4.1875rem;
+  height: 3.9375rem;
+  margin-left: 0.04167rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div154 .div155 .div157 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 4.58333rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div146
+  .div154
+  .div155
+  .div157
+  .split_text5044 {
+  color: #000;
+  text-align: center;
+  width: 5.97917rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div154 .div158 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 5.64583rem;
+  min-height: 6.6875rem;
+  margin-left: 5.41667rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div154 .div158 .image159 {
+  width: 4.1875rem;
+  height: 3.9375rem;
+  margin-left: -0.375rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div146 .div154 .div158 .div160 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 5.64583rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div146
+  .div154
+  .div158
+  .div160
+  .split_text5045 {
+  color: #000;
+  text-align: center;
+  width: 5.97917rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div161 {
+  z-index: 3;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 11.9583rem;
+  min-height: 10.4375rem;
+  margin-top: 6.375rem;
+  margin-left: -2.58333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div161 .div162 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 13.2292rem;
+  min-height: 5.9375rem;
+  margin-top: -0.9375rem;
+  margin-left: 3.20833rem;
+  padding-bottom: 1.27083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div161 .div162 .image163 {
+  z-index: 0;
+  width: 13.2292rem;
+  height: 5.9375rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div161 .div162 .div164 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 7.125rem;
+  margin-top: -4.6875rem;
+  margin-left: -2.70833rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div161 .div162 .div164 .div165 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 3.04167rem;
+  min-height: auto;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div165
+  .split_text5046 {
+  color: #3379ef;
+  width: 5.41667rem;
+  font-size: 0.75rem;
+  line-height: 0.89583rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div165
+  .split_text5046:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div165
+  .split_text5046:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div165
+  .split_text5046:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div165
+  .split_text5046:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div165
+  .split_text5046:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div165
+  .split_text5046:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div140 .div161 .div162 .div164 .div166 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 7.125rem;
+  min-height: auto;
+  margin-top: 0.3125rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div166
+  .split_text5047 {
+  color: #323232;
+  width: 10.4167rem;
+  font-size: 0.75rem;
+  line-height: 0.89583rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div166
+  .split_text5047:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div166
+  .split_text5047:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div166
+  .split_text5047:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div166
+  .split_text5047:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div166
+  .split_text5047:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div162
+  .div164
+  .div166
+  .split_text5047:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div140 .div161 .div167 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 14.625rem;
+  min-height: 5.04167rem;
+  margin-top: 4.79167rem;
+  margin-left: -3.125rem;
+  padding-bottom: 1.58333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div161 .div167 .image168 {
+  z-index: 0;
+  width: 14.625rem;
+  height: 5.04167rem;
+}
+.div1.fly-birds-page_aee72908da .div140 .div161 .div167 .div169 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 7.9375rem;
+  height: 1.16667rem;
+  margin-top: -3.64583rem;
+  margin-left: -3.33333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div161 .div167 .div169 .div170 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 1.625rem;
+  min-height: auto;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div170
+  .split_text5048 {
+  color: #3379ef;
+  width: 3.125rem;
+  font-size: 0.75rem;
+  line-height: 0.89583rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div170
+  .split_text5048:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div170
+  .split_text5048:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div170
+  .split_text5048:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div170
+  .split_text5048:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div170
+  .split_text5048:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div170
+  .split_text5048:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div140 .div161 .div167 .div169 .div171 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 7.9375rem;
+  min-height: auto;
+  margin-top: 0.3125rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div171
+  .split_text5049 {
+  color: #323232;
+  width: 11.4583rem;
+  font-size: 0.75rem;
+  line-height: 0.89583rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div171
+  .split_text5049:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div171
+  .split_text5049:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div171
+  .split_text5049:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div171
+  .split_text5049:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div171
+  .split_text5049:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div140
+  .div161
+  .div167
+  .div169
+  .div171
+  .split_text5049:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div140 .div172 {
+  z-index: 4;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 17.7917rem;
+  min-height: auto;
+  margin-top: 7.9375rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div140 .div172 .split_text5050 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+}
+.div1.fly-birds-page_aee72908da .div173 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 52.4375rem;
+  padding-bottom: 13rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div173 .image174 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 52.4375rem;
+}
+.div1.fly-birds-page_aee72908da .div173 .div175 {
+  z-index: 2;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.3333rem;
+  min-height: 9.3125rem;
+  margin-top: -46.2292rem;
+  margin-left: -0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div173 .div175 .div176 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 16.125rem;
+  min-height: auto;
+  margin-left: 0.125rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div173 .div175 .div176 .split_text5055 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div173 .div175 .div177 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15.4583rem;
+  min-height: auto;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div173 .div175 .div177 .split_text5056 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div173 .div175 .div178 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.3333rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div173 .div175 .div178 .split_text5057 {
+  color: #000;
+  text-align: center;
+  width: 19.6875rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15.625rem;
+  min-height: 19.5417rem;
+  margin-top: 4.375rem;
+  margin-left: -0.08333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 .div180 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 6.3125rem;
+  min-height: 4.33333rem;
+  margin-left: -9.02083rem;
+  padding-bottom: 1.95833rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 .div180 .image181 {
+  z-index: 0;
+  width: 6.3125rem;
+  height: 4.33333rem;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 .div180 .div182 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 4.5rem;
+  min-height: 0.72917rem;
+  margin-top: -2.6875rem;
+  margin-left: 0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div180
+  .div182
+  .split_text5051 {
+  color: #000;
+  width: 5.20833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div180
+  .div182
+  .split_text5051:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div180
+  .div182
+  .split_text5051:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div180
+  .div182
+  .split_text5051:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div180
+  .div182
+  .split_text5051:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div180
+  .div182
+  .split_text5051:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div180
+  .div182
+  .split_text5051:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 .div183 {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 15.625rem;
+  min-height: 8.58333rem;
+  margin-top: 0.10417rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 .div183 .div184 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 6.3125rem;
+  min-height: 4.33333rem;
+  margin-top: 4.25rem;
+  padding-bottom: 1.4375rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 .div183 .div184 .image185 {
+  z-index: 0;
+  width: 6.3125rem;
+  height: 4.33333rem;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 .div183 .div184 .div186 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4.8125rem;
+  min-height: 1.6875rem;
+  margin-top: -3.125rem;
+  margin-left: -0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div183
+  .div184
+  .div186
+  .split_text5053 {
+  color: #000;
+  text-align: center;
+  width: 5.72917rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 .div183 .div187 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 6.3125rem;
+  min-height: 4.33333rem;
+  margin-left: 3rem;
+  padding-bottom: 1.89583rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 .div183 .div187 .image188 {
+  z-index: 0;
+  width: 6.3125rem;
+  height: 4.33333rem;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 .div183 .div187 .div189 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 5.27083rem;
+  min-height: 0.72917rem;
+  margin-top: -2.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div183
+  .div187
+  .div189
+  .split_text5052 {
+  color: #000;
+  width: 5.64583rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div183
+  .div187
+  .div189
+  .split_text5052:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div183
+  .div187
+  .div189
+  .split_text5052:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div183
+  .div187
+  .div189
+  .split_text5052:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div183
+  .div187
+  .div189
+  .split_text5052:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div183
+  .div187
+  .div189
+  .split_text5052:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div183
+  .div187
+  .div189
+  .split_text5052:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 .div190 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 6.3125rem;
+  min-height: 4.33333rem;
+  margin-top: 2.1875rem;
+  margin-left: 4.02083rem;
+  padding-bottom: 1.6875rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 .div190 .image191 {
+  z-index: 0;
+  width: 6.3125rem;
+  height: 4.33333rem;
+}
+.div1.fly-birds-page_aee72908da .div173 .div179 .div190 .div192 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3.45833rem;
+  min-height: 1.54167rem;
+  margin-top: -3.22917rem;
+  margin-left: -0.14583rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div173
+  .div179
+  .div190
+  .div192
+  .split_text5054 {
+  color: #000;
+  text-align: center;
+  width: 4.20833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div193 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 52.8542rem;
+  padding-bottom: 1.39583rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div193 .image194 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 52.8542rem;
+}
+.div1.fly-birds-page_aee72908da .div193 .div195 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.4792rem;
+  min-height: 8.1875rem;
+  margin-top: -46.6458rem;
+  margin-left: 0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div193 .div195 .div196 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10.4583rem;
+  min-height: auto;
+  margin-left: 0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div193 .div195 .div196 .split_text5058 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div193 .div195 .div197 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 17.5833rem;
+  min-height: auto;
+  margin-left: -0.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div193 .div195 .div197 .split_text5059 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div193 .div195 .div198 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.4792rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div193 .div195 .div198 .split_text5060 {
+  color: #000;
+  text-align: center;
+  width: 19.7292rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div193 .div199 {
+  z-index: 2;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 20.4167rem;
+  min-height: 31.5208rem;
+  margin-top: 5.54167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div193 .div199 .div200 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20.4167rem;
+  min-height: 10.0208rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div193 .div199 .div200 .image201 {
+  z-index: 0;
+  width: 20.4167rem;
+  height: 10.0208rem;
+}
+.div1.fly-birds-page_aee72908da .div193 .div199 .div200 .div202 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 8.5625rem;
+  min-height: 2.47917rem;
+  margin-top: -0.29167rem;
+  margin-left: -19.2917rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div200
+  .div202
+  .split_text5061 {
+  color: #000;
+  width: 8.70833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div200
+  .div202
+  .split_text5061:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div200
+  .div202
+  .split_text5061:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div200
+  .div202
+  .split_text5061:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div200
+  .div202
+  .split_text5061:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div200
+  .div202
+  .split_text5061:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div200
+  .div202
+  .split_text5061:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div193 .div199 .div203 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20.4167rem;
+  min-height: 10.0208rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div193 .div199 .div203 .image204 {
+  z-index: 0;
+  width: 20.4167rem;
+  height: 10.0208rem;
+}
+.div1.fly-birds-page_aee72908da .div193 .div199 .div203 .div205 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 8.70833rem;
+  min-height: 2.625rem;
+  margin-top: -0.5625rem;
+  margin-left: -19.2917rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div203
+  .div205
+  .split_text5062 {
+  color: #000;
+  width: 9.04167rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div203
+  .div205
+  .split_text5062:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div203
+  .div205
+  .split_text5062:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div203
+  .div205
+  .split_text5062:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div203
+  .div205
+  .split_text5062:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div203
+  .div205
+  .split_text5062:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div203
+  .div205
+  .split_text5062:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div193 .div199 .div206 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20.4167rem;
+  min-height: 10.0208rem;
+  margin-top: 0.20833rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div193 .div199 .div206 .image207 {
+  z-index: 0;
+  width: 20.4167rem;
+  height: 10.0208rem;
+}
+.div1.fly-birds-page_aee72908da .div193 .div199 .div206 .div208 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 8.27083rem;
+  min-height: 2.64583rem;
+  margin-top: -0.08333rem;
+  margin-left: -19.2917rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div206
+  .div208
+  .split_text5063 {
+  color: #000;
+  width: 8.79167rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div206
+  .div208
+  .split_text5063:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div206
+  .div208
+  .split_text5063:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div206
+  .div208
+  .split_text5063:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div206
+  .div208
+  .split_text5063:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div206
+  .div208
+  .split_text5063:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div193
+  .div199
+  .div206
+  .div208
+  .split_text5063:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div209 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 15.125rem;
+  padding-bottom: 6.14583rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div209 .image210 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 15.125rem;
+}
+.div1.fly-birds-page_aee72908da .div209 .div211 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 17.1875rem;
+  min-height: 3.10417rem;
+  margin-top: -9.25rem;
+  margin-left: 0.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div209 .div211 .div212 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 17.1875rem;
+  min-height: auto;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div209 .div211 .div212 .split_text5064 {
+  color: #000;
+  letter-spacing: 0.01042rem;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.5rem;
+  line-height: 1.70833rem;
+}
+.div1.fly-birds-page_aee72908da .div209 .div211 .div213 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 12.5417rem;
+  min-height: auto;
+  margin-left: -0.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div209 .div211 .div213 .split_text5065 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div214 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 35.7292rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div214 .image215 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 35.7292rem;
+}
+.div1.fly-birds-page_aee72908da .div214 .div216 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.375rem;
+  min-height: 9.54167rem;
+  margin-top: -29.5208rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div214 .div216 .div217 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15.0833rem;
+  min-height: 1.375rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div214 .div216 .div217 .split_text5066 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div214 .div216 .div218 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 14.5rem;
+  min-height: 2.89583rem;
+  margin-left: 0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div214 .div216 .div218 .split_text5067 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div214 .div216 .div219 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 19.375rem;
+  min-height: 3.60417rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div214 .div216 .div219 .split_text5068 {
+  color: #000;
+  text-align: center;
+  width: 19.75rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div220 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 57.5833rem;
+  padding-bottom: 22.8125rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div220 .image221 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 57.5833rem;
+}
+.div1.fly-birds-page_aee72908da .div220 .div222 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.2917rem;
+  min-height: 11.0833rem;
+  margin-top: -51.375rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div220 .div222 .div223 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 12.0208rem;
+  min-height: auto;
+  margin-left: 0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div220 .div222 .div223 .split_text5069 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div220 .div222 .div224 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15.6875rem;
+  min-height: auto;
+  margin-left: -0.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div220 .div222 .div224 .split_text5070 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div220 .div222 .div225 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.2917rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div220 .div222 .div225 .split_text5071 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 {
+  z-index: 2;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 16.4792rem;
+  min-height: 13.2292rem;
+  margin-top: 4.25rem;
+  margin-left: 0.47917rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div227 {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 16.4792rem;
+  min-height: 5.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div227 .div228 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 2.66667rem;
+  min-height: 5.10417rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div227 .div228 .image229 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: -0.04167rem;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div227 .div228 .div230 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 2.66667rem;
+  min-height: 1.54167rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div220
+  .div226
+  .div227
+  .div228
+  .div230
+  .split_text5072 {
+  color: #000;
+  text-align: center;
+  width: 4.83333rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div227 .div231 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 3.66667rem;
+  min-height: 5.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div227 .div231 .image232 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.04167rem;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div227 .div231 .div233 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3.66667rem;
+  min-height: 1.70833rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div220
+  .div226
+  .div227
+  .div231
+  .div233
+  .split_text5073 {
+  color: #000;
+  text-align: center;
+  width: 4.83333rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div227 .div234 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 3.4375rem;
+  min-height: 5.1875rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div227 .div234 .image235 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: -0.0625rem;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div227 .div234 .div236 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3.4375rem;
+  min-height: 1.5625rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div220
+  .div226
+  .div227
+  .div234
+  .div236
+  .split_text5074 {
+  color: #000;
+  text-align: center;
+  width: 4.83333rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div237 {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 10.4167rem;
+  min-height: 5.33333rem;
+  margin-top: 2.64583rem;
+  margin-left: 0.22917rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div237 .div238 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 3.02083rem;
+  min-height: 5.3125rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div237 .div238 .image239 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.02083rem;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div237 .div238 .div240 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3.02083rem;
+  min-height: 1.70833rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div220
+  .div226
+  .div237
+  .div238
+  .div240
+  .split_text5075 {
+  color: #000;
+  text-align: center;
+  width: 4.83333rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div237 .div241 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 5.08333rem;
+  min-height: 5.33333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div237 .div241 .image242 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.16667rem;
+}
+.div1.fly-birds-page_aee72908da .div220 .div226 .div237 .div241 .div243 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 5.08333rem;
+  min-height: 1.70833rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da
+  .div220
+  .div226
+  .div237
+  .div241
+  .div243
+  .split_text5076 {
+  color: #000;
+  text-align: center;
+  width: 5.27083rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div244 {
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 45.8542rem;
+  padding-bottom: 7.64583rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div244 .image245 {
+  z-index: 0;
+  width: 20.4167rem;
+  height: 16.6667rem;
+  margin-top: 11.4583rem;
+}
+.div1.fly-birds-page_aee72908da .div244 .div246 {
+  z-index: 2;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 13.3542rem;
+  height: 4.25rem;
+  margin-top: -24.1667rem;
+  margin-left: -0.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div244 .div246 .div247 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 8.8125rem;
+  min-height: auto;
+  margin-left: 0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div244 .div246 .div247 .split_text5079 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.33333rem;
+  line-height: 1.54167rem;
+}
+.div1.fly-birds-page_aee72908da .div244 .div246 .div248 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 13.3542rem;
+  min-height: auto;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div244 .div246 .div248 .split_text5080 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da .div244 .div249 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 11.2708rem;
+  height: 4.83333rem;
+  margin-top: 4.20833rem;
+  margin-left: 1.27083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div244 .div249 .div252 {
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0.41667rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: -2.70833rem;
+  padding: 0.52083rem 0.72917rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div244 .div249 .div252 .split_text5077 {
+  color: #1d79bd;
+  text-align: center;
+  width: 10rem;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+}
+.div1.fly-birds-page_aee72908da .div244 .div249 .div255 {
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0.41667rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 0.625rem;
+  margin-right: -1.66667rem;
+  padding: 0.52083rem 0.72917rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div244 .div249 .div255 .split_text5078 {
+  color: #1d79bd;
+  text-align: center;
+  width: 9.79167rem;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+}
+.div1.fly-birds-page_aee72908da .div244 .div256 {
+  z-index: 3;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 19.4792rem;
+  min-height: auto;
+  margin-top: 12rem;
+  margin-left: 0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div244 .div256 .split_text5081 {
+  color: #000;
+  text-align: center;
+  width: 19.7083rem;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+}
+.div1.fly-birds-page_aee72908da .div257 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  min-height: 55.1458rem;
+  padding-bottom: 5.4375rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div257 .image258 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 55.1458rem;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 19.5rem;
+  min-height: 43.75rem;
+  margin-top: -49.1875rem;
+  margin-left: -0.08333rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div260 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 19.4167rem;
+  min-height: 3.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div260 .split_text5082 {
+  color: #000;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div260
+  .split_text5082:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div260
+  .split_text5082:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div260
+  .split_text5082:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div260
+  .split_text5082:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div260
+  .split_text5082:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div260
+  .split_text5082:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div261 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 14.4375rem;
+  min-height: 0.72917rem;
+  margin-top: 0.3125rem;
+  margin-left: 0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div261 .split_text5083 {
+  color: #000;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div261
+  .split_text5083:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div261
+  .split_text5083:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div261
+  .split_text5083:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div261
+  .split_text5083:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div261
+  .split_text5083:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div261
+  .split_text5083:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div262 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 19.3125rem;
+  min-height: 8.41667rem;
+  margin-top: 0.3125rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div262 .split_text5084 {
+  color: #000;
+  width: 19.6875rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div262
+  .split_text5084:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div262
+  .split_text5084:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div262
+  .split_text5084:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div262
+  .split_text5084:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div262
+  .split_text5084:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div262
+  .split_text5084:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div263 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 19.0833rem;
+  min-height: 2.64583rem;
+  margin-top: 0.3125rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div263 .split_text5085 {
+  color: #000;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div263
+  .split_text5085:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div263
+  .split_text5085:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div263
+  .split_text5085:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div263
+  .split_text5085:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div263
+  .split_text5085:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div263
+  .split_text5085:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div264 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 19.1042rem;
+  min-height: 5.375rem;
+  margin-top: 0.3125rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div264 .split_text5086 {
+  color: #000;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div264
+  .split_text5086:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div264
+  .split_text5086:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div264
+  .split_text5086:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div264
+  .split_text5086:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div264
+  .split_text5086:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div264
+  .split_text5086:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div265 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 19.125rem;
+  min-height: 4.58333rem;
+  margin-top: 0.3125rem;
+  margin-left: 0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div265 .split_text5087 {
+  color: #000;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div265
+  .split_text5087:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div265
+  .split_text5087:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div265
+  .split_text5087:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div265
+  .split_text5087:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div265
+  .split_text5087:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div265
+  .split_text5087:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div266 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 19.4792rem;
+  min-height: 3.625rem;
+  margin-top: 0.3125rem;
+  margin-left: 0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div266 .split_text5088 {
+  color: #000;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div266
+  .split_text5088:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div266
+  .split_text5088:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div266
+  .split_text5088:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div266
+  .split_text5088:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div266
+  .split_text5088:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div266
+  .split_text5088:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div267 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 18.2292rem;
+  min-height: 3.52083rem;
+  margin-top: 0.3125rem;
+  margin-left: 0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div267 .split_text5089 {
+  color: #000;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div267
+  .split_text5089:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div267
+  .split_text5089:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div267
+  .split_text5089:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div267
+  .split_text5089:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div267
+  .split_text5089:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div267
+  .split_text5089:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div268 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 19.0833rem;
+  min-height: 1.70833rem;
+  margin-top: 0.3125rem;
+  margin-left: 0.02083rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div268 .split_text5090 {
+  color: #000;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div268
+  .split_text5090:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div268
+  .split_text5090:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div268
+  .split_text5090:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div268
+  .split_text5090:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div268
+  .split_text5090:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div268
+  .split_text5090:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div269 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 19.1458rem;
+  min-height: 1.6875rem;
+  margin-top: 0.3125rem;
+  margin-left: 0.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_aee72908da .div257 .div259 .div269 .split_text5091 {
+  color: #000;
+  width: 19.5833rem;
+  font-size: 0.75rem;
+  line-height: 0.95833rem;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div269
+  .split_text5091:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div269
+  .split_text5091:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div269
+  .split_text5091:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div269
+  .split_text5091:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div269
+  .split_text5091:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_aee72908da
+  .div257
+  .div259
+  .div269
+  .split_text5091:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.f-thin {
+  font-weight: 100;
+}
+.f-extra {
+  font-weight: 200;
+}
+.f-light {
+  font-weight: 300;
+}
+.f-regular {
+  font-weight: 400;
+}
+.f-medium {
+  font-weight: 500;
+}
+.f-semi {
+  font-weight: 600;
+}
+.f-bold {
+  font-weight: 700;
+}
+.f-bolder {
+  font-weight: 800;
+}
+.f-heavy {
+  font-weight: 900;
+}
+
+
+.specs-con {
+  background-color: #fff;
+}
+
